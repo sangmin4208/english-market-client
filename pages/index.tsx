@@ -4,7 +4,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <h1>
-        English Market
+        Home
       </h1>
     </div>
   )
