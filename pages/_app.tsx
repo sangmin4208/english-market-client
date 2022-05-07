@@ -1,8 +1,8 @@
 import type { AppProps } from 'next/app'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Footer from '@components/layout/Footer'
 import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
+import Header from '@components/layout/header/Header';
 
 const GlobalStyles = createGlobalStyle` 
     ${reset}
